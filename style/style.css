@@ -1,0 +1,230 @@
+body {
+    background-color:rgb(17 24 39);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+/* aside */
+aside {
+    position: fixed;
+    float: left;
+    top:0;
+    left:0;
+    max-width: 255px;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(31 41 55);
+    padding: 10px;
+    /* overflow-y: scroll; */
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+.logo-img {
+    width: 132px;
+    height: 33px;
+}
+.btn-sitebar {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-bottom: 2px solid rgba(131, 130, 132, 0.449);
+    padding-bottom: 30px;
+}
+.btn-sitebar-first {
+    width: 100%;
+    height: 37px;
+    background-color:#6C2BD9;
+    border: none;
+    border-radius: 10px;
+    box-shadow:  0 0 20px rgba(99, 13, 198, 0.801);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+    padding: 10px;
+}
+.btn-sitebar-first a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn-sitebar div {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.btn-sitebar-third, .btn-sitebar-second {
+    width: 49%;
+    height: 37px;
+    background-color:#3F83F8;
+    border: none;
+    border-radius: 10px;
+    box-shadow:  0 0 20px rgba(99, 13, 198, 0.801);
+    display: flex;
+    align-items:center;
+
+}
+.btn-sitebar-third a, .btn-sitebar-second a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+.smart-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.smart-item {
+    background-color: inherit;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+}
+.smart-item:hover {
+    background-color: rgb(55 65 81 );
+}
+
+/* header  */
+
+.container {
+    width: calc(100% - 255px); 
+    margin-left: 255px;
+    padding: 16px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+.search input {
+    max-width: 350px;
+    width: 100%;
+    height: 37px;
+    border-radius: 10px;
+    border:1px solid rgba(131, 130, 132, 0.2);
+    background-color:rgb(54, 61, 70);
+    padding-left: 30px;
+    color: white;
+    font-size: 16px;
+    
+}
+.search {
+    position: relative;
+}
+.search img {
+    position: absolute;
+    top:25%;
+    left: 4%;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.buttons button {
+    width: 100px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(31 41 55);
+}
+.buttons button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.buttons button:nth-of-type(2){
+    background-color:#6C2BD9;
+    box-shadow:  0 0 20px rgba(99, 13, 198, 0.801);
+}
+@media screen and (max-width: 768px){
+    aside {
+        display: none;
+    }
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+/* slider  */
+.slider { 
+    width: 100%;
+    padding-top: 30px;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+}
+/* .container {
+    width: 100%; 
+    max-width: 100%
+} */
+.swiper-slide {
+    text-align: center;
+    border-radius:10px;
+    width: 100%;
+    /* max-width: 375px;
+    height: 192px; */
+}
+.swiper-slide img {
+    width: 100%;
+    /* max-width: 375px;
+    height: 192px; */
+    border-radius:10px;
+}
+.slider_title {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 24px;
+}
+.slider_content {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    font-size: 14px;
+}
+  
+@media screen and (max-width: 768px) {
+    .slider { 
+        width: 100%;
+    }
+    .swiper-wrapper {
+        position: relative;
+    }
+    .swiper-slide {
+        width: 50%;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    .swiper-slide {
+        width: 50%;
+    }
+    .swiper-slide img {
+        
+    }
+    
+}
+
