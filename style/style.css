@@ -305,7 +305,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     gap: 20px;
     
 }
