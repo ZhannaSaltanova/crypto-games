@@ -1,7 +1,7 @@
 const swiper = new Swiper('.swiper', {
     slidesPerView: 3, 
     spaceBetween: 5, 
-    slidesPerGroup: 3, 
+    slidesPerGroup: 2, 
     autoplay: {
         delay: 4000, 
         disableOnInteraction: false, 
