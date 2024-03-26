@@ -398,7 +398,89 @@ p {
     position: relative;
     border-radius: 10px;
     max-width: 146px;
+    height: 186px;
     width: 100%;
+}
+.slot__box-item:nth-of-type(1){
+    background-image: url('../img/slot2/1.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(2){
+    background-image: url('../img/slot2/2.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(3){
+    background-image: url('../img/slot2/3.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(4){
+    background-image: url('../img/slot2/4.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(5){
+    background-image: url('../img/slot2/5.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(6){
+    background-image: url('../img/slot2/6.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(7){
+    background-image: url('../img/slot2/7.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(8){
+    background-image: url('../img/slot2/8.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(9){
+    background-image: url('../img/slot2/9.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+.slot__box-item:nth-of-type(10){
+    background-image: url('../img/slot2/10.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(11){
+    background-image: url('../img/slot2/11.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(12){
+    background-image: url('../img/slot2/1.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(13){
+    background-image: url('../img/slot2/2.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(14){
+    background-image: url('../img/slot2/3.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(15){
+    background-image: url('../img/slot2/4.webp');
+    background-position: center;
+    background-size: cover;
+}
+.slot__box-item:nth-of-type(16){
+    background-image: url('../img/slot2/5.webp');
+    background-position: center;
+    background-size: cover;
 }
 .slot__box-item img {
     border-radius: 10px;
