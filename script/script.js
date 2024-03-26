@@ -29,3 +29,16 @@ const swiper = new Swiper('.swiper', {
       }
     },
   });
+
+
+  $(document).ready(function() {
+    $('.burger-button').on('click', function(e) {
+      e.preventDefault();  
+      $('aside').toggleClass('active');
+    });
+  
+    // $('.close').on('click', function(e) {
+    //   e.preventDefault();
+    //   $('.burgermenu').removeClass('burgermenu_active');
+    // });
+  });
