@@ -31,14 +31,17 @@ const swiper = new Swiper('.swiper', {
   });
 
 
-  $(document).ready(function() {
-    $('.burger-button').on('click', function(e) {
-      e.preventDefault();  
-      $('aside').toggleClass('active');
-    });
+  // $(document).ready(function() {
+  //   $('.burger-button').on('click', function(e) {
+  //     e.preventDefault();  
+  //     $('aside').toggleClass('active');
+  //   });
   
-    // $('.close').on('click', function(e) {
-    //   e.preventDefault();
-    //   $('.burgermenu').removeClass('burgermenu_active');
-    // });
+  // });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.burger-button').addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector('aside').classList.toggle('active');
+    });
   });
