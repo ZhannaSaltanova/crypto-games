@@ -397,13 +397,11 @@ p {
 .slot__box-item {
     position: relative;
     border-radius: 10px;
-    max-width: 146px;
 }
 .slot__box-item img {
     border-radius: 10px;
     display: block;
     transition: opacity 0.3s ease;
-    max-width: 146px;
 }
 .slot__box-item svg {
     position: absolute;
