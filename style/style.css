@@ -376,6 +376,7 @@ p {
     margin-top: 20px;
     border-radius: 20px;
     padding: 16px;
+    width: 100%;
 }
 .slot__box {
     display: flex;
