@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelector('.burger-button').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('aside').classList.toggle('active');
+  });
+});
+
 const swiper = new Swiper('.swiper', {
     slidesPerView: 3, 
     spaceBetween: 5, 
@@ -30,18 +37,3 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-
-  // $(document).ready(function() {
-  //   $('.burger-button').on('click', function(e) {
-  //     e.preventDefault();  
-  //     $('aside').toggleClass('active');
-  //   });
-  
-  // });
-
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelector('.burger-button').addEventListener('click', function(e) {
-      e.preventDefault();
-      document.querySelector('aside').classList.toggle('active');
-    });
-  });
