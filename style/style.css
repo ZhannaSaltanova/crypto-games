@@ -398,6 +398,7 @@ p {
     position: relative;
     border-radius: 10px;
     max-width: 146px;
+    width: 100%;
 }
 .slot__box-item img {
     border-radius: 10px;
