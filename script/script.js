@@ -3,7 +3,7 @@ const swiper = new Swiper('.swiper', {
     spaceBetween: 5, 
     slidesPerGroup: 2, 
     autoplay: {
-        delay: 4000, 
+        delay: 6000, 
         disableOnInteraction: false, 
       },
     loop:true,
