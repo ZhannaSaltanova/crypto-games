@@ -400,6 +400,11 @@ p {
     max-width: 146px;
     height: 186px;
     width: 100%;
+    min-height: 186px;
+    transition: opacity 0.3s ease;
+}
+.slot__box-item:hover {
+    opacity: 0.3; 
 }
 .slot__box-item:nth-of-type(1){
     background-image: url('../img/slot2/1.webp');
@@ -482,11 +487,11 @@ p {
     background-position: center;
     background-size: cover;
 }
-.slot__box-item img {
+/* .slot__box-item img {
     border-radius: 10px;
     display: block;
     transition: opacity 0.3s ease;
-}
+} */
 .slot__box-item svg {
     position: absolute;
     top: 50%;
@@ -495,11 +500,12 @@ p {
     opacity: 0; 
     transition: opacity 0.3s ease;
 }
-.slot__box-item:hover img {
+/* .slot__box-item:hover img {
     opacity: 0.4; 
-}
+} */
 .slot__box-item:hover svg {
     opacity: 1;
+    z-index: 1000;
 }
 
 /* table */
